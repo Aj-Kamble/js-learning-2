@@ -31,6 +31,7 @@ gradeCalculation("91"),
 
 */
 
+
 function gradeCalculation(marks) {
     if (marks == null || marks <= 0 || isNaN(+marks) || marks>100) {
         console.log(` invalid inputs: ${marks} `);
